@@ -1,0 +1,114 @@
+
+.bg-container {
+  background-color: #150b3e;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+
+.name-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.name-img {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+.heading {
+  font-size: 20px;
+  color: #d4d2db;
+  font-weight: 500;
+}
+
+
+.balance-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.balance-head {
+  color: #585076;
+  font-size: 18px;
+  font-weight: 500;
+}
+.balance-rupee {
+  text-align: right;
+}
+.balance-amount {
+  font-size: 28px;
+  margin: 0;
+  color: #d4d2db;
+}
+.para-amount {
+  color: #585076;
+  margin: 5px 0 0 0;
+  font-size: 14px;
+}
+
+
+.withdraw-card {
+  margin-top: 30px;
+}
+.withdraw-head {
+  font-size: 22px;
+  color: #d4d2db;
+  margin-bottom: 15px;
+}
+.para-withdraw {
+  color: #585076;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+ul {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .bg-container {
+    max-width: 98vw;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .name-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  ul {
+    gap: 7px;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 900px) and (min-width: 601px) {
+  .bg-container {
+    max-width: 80vw;
+    padding: 16px;
+    border-radius: 12px;
+  }
+  ul {
+    gap: 10px;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,40 @@
+.withdraw-amount-card {
+  margin: 0;
+  padding: 0;
+}
+
+.withdraw-amount-card button {
+  background-color: #382f5a;
+  color: #d4d2db;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 80px;
+  min-width: 80px;
+  box-sizing: border-box;
+}
+
+.withdraw-amount-card button:hover {
+  background-color: #7c3aed;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .withdraw-amount-card button {
+    width: 45vw;
+    min-width: 80px;
+    font-size: 15px;
+    padding: 8px;
+  }
+}
+@media (max-width: 900px) and (min-width: 601px) {
+  .withdraw-amount-card button {
+    width: 70px;
+    font-size: 16px;
+    padding: 9px;
+  }
+}
