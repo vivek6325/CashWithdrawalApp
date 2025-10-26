@@ -1,14 +1,35 @@
-<<<<<<< HEAD
-In this project, let's build a **Cash Withdrawal** app by applying the concepts we have learned till now.
+# 💸 Cash Withdrawal App
 
-### Refer to the image below:
+A clean and interactive **ReactJS application** that simulates an ATM-style cash withdrawal interface.  
+Users can check their current balance and withdraw cash in different denominations.  
+This project is designed to demonstrate key React concepts
+---
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/cash-withdrawal-output-v2.gif" alt="cash withdrawal" style="max-width:90%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+## 🚀 Features
 
+✅ Displays user profile (name & initial balance)  
+✅ Allows cash withdrawal using preset denominations (₹50, ₹100, ₹200, ₹500)  
+✅ Updates the balance instantly upon withdrawal  
+✅ Prevents negative balance deductions  
+✅ Reusable and modular React components  
+✅ Styled using CSS with a clean card UI  
+✅ Responsive layout  
+
+---
+
+## 🧩 Component Structure
+
+src/
+└── components/
+├── CashWithdrawal/
+│ ├── index.js
+│ └── index.css
+└── DenominationItem/
+├── index.js
+└── index.css
+
+
+<!--
 ### Design Files
 
 <details>
@@ -134,3 +155,4 @@ Use these files to complete the implementation:
 =======
 # CashWithdrawalApp
 >>>>>>> 34018b489aa2fe9bd3cc2de1c54560eeaef14dde
+-->
