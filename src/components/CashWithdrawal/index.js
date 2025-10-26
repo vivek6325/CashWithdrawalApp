@@ -6,7 +6,6 @@ class CashWithdrawal extends Component {
   state = {
     amount: 2000,
   }
-
   onClickWAmount = value => {
     this.setState(prevState => ({
       amount: prevState.amount - value,
